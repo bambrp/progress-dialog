@@ -1,0 +1,21 @@
+body { padding-bottom: 70px; }
+body,html { min-height: 100%; height: auto; }
+.pl-head { padding: 8px; height: 48px; }
+.pl-wrap__inner { float: left; }
+img.pl-logo { height: 32px; }
+h1.background--gallery { text-align: right; padding-right: 32px; padding-top: 32px; margin-top: 0px; }
+
+hr { width: 75%; margin: 3em auto; }
+h3.jupiter { margin-top: 2em; }
+
+.panels { background: #FFF; }
+footer.page__footer { position: fixed; width: 100%; bottom: 0em; height: 70px;}
+
+section.wrapper { overflow-y: auto; }
+#progressDialog .dialog__overlay { z-index: 99;}
+#progressDialog .dialog__body { z-index: 100;}
+#progressDialog .time__circle.success { stroke: #0f8243; }
+#progressDialog .time__circle.failed { stroke: #d0021b; }
+#progressDialog .progress-pc.success { color: #0f8243; }
+#progressDialog .progress-pc.failed { color: #d0021b; }
+#progressDialog .btn.btn--primary { padding: calc(.5rem + 2px) 2rem; }
